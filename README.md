@@ -1,4 +1,5 @@
 # CI Test API
+[![Pylint](https://github.com/tgru/citapi/actions/workflows/pylint.yml/badge.svg?branch=main)](https://github.com/tgru/citapi/actions/workflows/pylint.yml)
 An REST endpoint for CI tests.
 
 ## Build
