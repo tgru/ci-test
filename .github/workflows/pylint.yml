@@ -21,4 +21,4 @@ jobs:
     - name: Analysing the code with pylint
       run: |
         cd citapi
-        pylint `ls -R|grep .py$|xargs`
+        find . -name '*.py' -exec pylint {} \;
